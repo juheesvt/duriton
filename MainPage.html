@@ -17,25 +17,6 @@
   margin-top: 30px;
 }
 
-/* Control buttons  */
-#quote-carousel .carousel-control
-{
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-/* Previous button  */
-#quote-carousel .carousel-control.left 
-{
-  left: -12px;
-}
-/* Next button  */
-#quote-carousel .carousel-control.right 
-{
-  right: -12px !important;
-}
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
 {
@@ -75,8 +56,6 @@
     float: left;
     margin-right: 10px;
 }
-
-
 
 /**
   MEDIA QUERIES
@@ -128,8 +107,7 @@
         <ol class="carousel-indicators">
           <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#quote-carousel" data-slide-to="1"></li>
-          <li data-target="#quote-carousel" data-slide-to="2"></li>
-          <li data-target="#quote-carousel" data-slide-to="3"></li>
+          
         </ol>
         
         <!-- Carousel Slides / Quotes -->
@@ -151,39 +129,23 @@
             <blockquote>
               <div class="row">
                 <div class="col text-center">
-                  <img class="img" src="main2.PNG" style="width: 640px;height:360px;">
+                  <img class="img" src="main2.jpg" style="width: 640px;height:360px;">
                 </div>
                 </div>
             </blockquote>
           </div>
-          <!-- Quote 3 -->
-          <div class="item">
-            <blockquote>
-              <div class="row">
-                <div class="col text-center">
-                  <img class="img" src="main1.jpg" style="width: 640px;height:360px;">
-                </div>
-              </div>
-            </blockquote>
           </div>
-          <div class="item">
-            <blockquote>
-              <div class="row">
-                <div class="col text-center">
-                  <img class="img" src="main2.PNG" style="width: 640px;height:360px;">
-                </div>
-              </div>
-            </blockquote>
-          </div>
-        
-        </div>
-        
-        <!-- Carousel Buttons Next/Prev -->
-        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
       </div>                          
     </div>
   </div>
 </div>
+    <div class="container">
+        <div align="center">
+  <a class="btn btn"><img class="btn-img" src="notice.png" style="width: 150px; height: 150px; margin-left: auto; margin-right: auto; display: block;">공지사항</a>
+  <a class="btn btn"><img class="btn-img" src="신청.png" style="width: 150px; height: 150px; margin-left: auto; margin-right: auto; display: block;">사물함 신청</a>
+  <a class="btn btn"><img class="btn-img" src="신문고.png" style="width: 150px; height: 150px; margin-left: auto; margin-right: auto; display: block;">문의 사항</a> 
+  <a class="btn btn"><img class="btn-img" src="캘린더.png" style="width: 150px; height: 150px; margin-left: auto; margin-right: auto; display: block;" >두리 일정</a>
+        </div>
+    </div>
     </body>
 </html>
